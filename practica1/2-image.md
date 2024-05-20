@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-Las dos se necesitan una de la otra ya que la imagen contiene las instrucciones para crear un contenedor, mientras el contenedor es una instancia en ejecución de una imagen.
+La relacion es de una a muchos, ya que la imagen, la cual contiene las instrucciones para crear un contenedor, puede ser utilizada para crear múltiples contenedores los cuales son una instancia en ejecución de una imagen.
 
 ![Imagen y contenedores](imagenes/imagenYcontenedores.JPG)
 ## Comandos para imágenes
@@ -30,13 +30,15 @@ docker pull hello-world
 # COMPLETAR 
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+docker pull nginx:alphine
 
 ### Listar imágenes
 
 ```
 docker images
 ```
+
+![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-GR1/assets/94008979/c034df77-a044-4919-9ebf-07752333dc4b)
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
 
