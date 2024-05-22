@@ -29,9 +29,8 @@ docker pull hello-world
 ```
 
 **¿Qué es nginx**
-```
-es una imagen
-```
+
+Es un servidor proxy de código abierto para los protocolos HTTP, HTTPS, SMTP, POP3 e IMAP.
 
 Descargar la imagen  **nginx** en la versión **alpine**
 ```
