@@ -13,7 +13,7 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 docker run -d --name contenedorVariable nginx:alpine -e username -e role=admin 
 ```
 
-#COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+###COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
 ![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-GR1/assets/94008979/eb69efd9-922f-4d86-8722-95a75559a5c4)
 
 
@@ -57,7 +57,7 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 docker run -P -d --name Mysql --env-file=C:\Users\Usuario\Downloads\password.txt mysql:8
 ```
 
-# COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
+### COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
 ![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-GR1/assets/94008979/e76ae7f1-fe84-42ae-9fe2-bc77c8f82d6c)
 
 
