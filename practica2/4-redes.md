@@ -47,8 +47,17 @@ docker network ls
 ### Crear los contenedores y las redes que se presentan en el esquema. Usar para todos los contenedores la imagen de nginx:alpine
 
 ![Imagen](imagenes/esquema-ejercicio-redes.PNG)
-
-### REDES EXISTENTES CREADAS
+## REDES EXISTENTES CREADAS
+creamos las redes a utilizar:
+```
+docker network create net-curso01
+docker network create net-curso02
+```
+Con el mismo comando se crean los contenedores y los unimos a los contenedores:
+```
+docker run -d --name contenedor1 --network net-curso01 nginx:alpine
+```
+### LISTA DE REDES EXISTENTES CREADAS
 ![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-GR1/assets/94008979/45640a4d-ca02-40bb-ae4c-d188c5f05ab2)
 
 ## CONTENEDORES Y A QUE RED ESTÁN VINCULADAS
