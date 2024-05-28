@@ -54,7 +54,7 @@ Es necesario especificar la ruta absoluta del archivo si este se encuentra en un
 ### Crear un contenedor con mysql:8 , mapear todos los puertos y configurar las variables de entorno mediante un archivo
 
 ```
-docker run -P -d --name Mysql --env-file=C:\Users\Usuario\Downloads\password.txt mysql:8
+docker run -P -d --name Mysql --env-file="C:\Users\Usuario\Downloads\password.txt" mysql:8
 ```
 
 ### COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
