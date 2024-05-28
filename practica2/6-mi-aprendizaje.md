@@ -1,3 +1,3 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+## Mi aprendizaje
+
+La realizacion de esta practica mejoro un poco a comparacion de la anterior, esto debido a que ya se tenian conocimientos previos de los comandos basicos para contenedores e imagenes, pero ahora se pudo aprender muchas mas operaciones para los contenedores, y a la vez se pudo aprender el mapeo de puertos y redes vinculados a los contenedores, ya que son una parte muy importante, esto porque un problema presentado al realizar la practica fue con los puertos que si no se colocaban correctamente este contenedor no recibia la conexion de estos, otro de los errores que se presento fue las variables ya que en algunos casos algunos contenedores necesitan de estas variables para poder ser inicializado, y para solucionar esto se necesitaba hacer uso de los logs, y luego empezar a crear el contenedor con estas variables ya establecidas en el comando o por medio de un file aparte.
