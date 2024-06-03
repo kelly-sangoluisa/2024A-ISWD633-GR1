@@ -8,25 +8,39 @@ docker run -d --name <nombre contenedor> -v <ruta carpeta host>:<ruta carpeta co
 ### Crear un volumen tipo host con la imagen nginx:alpine, para la ruta carpeta host: directorio en donde se encuentra la carpeta html en tu computador y para la ruta carpeta contenedor: /usr/share/nginx/html esta ruta se obtiene al revisar la se obtiene desde la documentación
 ![Volúmenes](imagenes/volumen-host.PNG)
 # COMPLETAR CON EL COMANDO
+```
+docker run -d --name contVolum -p 8080:80 -v C:/Users/Usuario/OneDrive/Documentos/carpetahost:/usr/share/nginx/html nginx:alpine
+```
 
 ### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+```
+nos sale un error de codigo 403 ya que el acceso esta prohibido.
+```
 ### ¿Qué pasa con el archivo index.html del contenedor?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
-
+```
+no encuentra el archivo index.html ya que no existe en la carpeta del contenedor y por lo tanto tampoco en la copia local
+```
 ### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de nginx/html
-### ¿Qué sucede al ingresar al servidor de nginx?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+![image](https://github.com/kelly-sangoluisa/2024A-ISWD633-GR1/assets/94008979/abf730c7-9d27-4a8c-b935-5cc809445ee6)
 
-### Eliminar el contenedor
-# COMPLETAR CON EL COMANDO
+### ¿Qué sucede al ingresar al servidor de nginx?
+```
+ya se puede visualizar la pagina que se creo a partir del template
+```
+### Eliminar el contenedor 
+```
+docker rm contVolum
+```
 
 ### ¿Qué sucede al crear nuevamente el mismo contenedor con volumen de tipo host a los directorios definidos anteriormente?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+```
+ahora si se puede ver la pagina como anteiormente ya se veia con el template escogido.
+```
 
 ### ¿Qué hace el comando pwd?
-# COMPLETAR CON LA RESPUESTA A LA PREGUNTA
+```
+imprimir la ruta completa del directorio de trabajo actual
+```
 Si quieres incluir el comando pwd dentro de un comando de Docker, lo puedes hacer de diferentes maneras dependiendo del shell que estés utilizando.
 
 
